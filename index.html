@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Felipe Fragoso | Portfólio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to right, #f0f4f8, #ffffff);
+      color: #1a1a1a;
+    }
+    header {
+      background: #0d1117;
+      color: #fff;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #58a6ff;
+      margin-bottom: 1rem;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #58a6ff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      border-left: 4px solid #0d1117;
+      padding-left: 1rem;
+      font-size: 1.8rem;
+    }
+    .projetos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .projeto {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      transition: all 0.3s ease-in-out;
+    }
+    .projeto:hover {
+      transform: scale(1.02);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+    }
+    .projeto h3 {
+      margin-top: 0;
+      color: #0d1117;
+    }
+    .projeto a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .cv-button {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.75rem 2rem;
+      background: #0d1117;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    #contato a {
+      color: #0d1117;
+      text-decoration: underline;
+    }
+    footer {
+      background: #0d1117;
+      color: #fff;
+      text-align: center;
+      padding: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="felipe.jpeg" alt="Felipe Fragoso">
+    <h1>Felipe Fragoso</h1>
+    <p>Desenvolvedor de Sistemas | Cibersegurança | ERP | Análise de Dados</p>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre</h2>
+    <p>Sou Felipe de Almeida Fragoso, profissional em constante evolução com experiência sólida em suporte técnico, desenvolvimento de sistemas e segurança da informação. Atualmente atuo na TJ Automação com desenvolvimento e suporte do sistema ERP STI3. Tenho formação em Administração e estou cursando Gestão da Tecnologia da Informação pela Uniasselvi. Atuo como freelancer em pentest, com domínio em Python, Flask, MySQL, JavaScript, redes, análise de vulnerabilidades e DevSecOps. Busco constantemente agregar valor com inovação e foco em resultados.</p>
+    <a class="cv-button" href="Curriculo_Felipe_Fragoso 26-05.pdf" download>📄 Baixar Currículo em PDF</a>
+  </section>
+</body>
+</html>
